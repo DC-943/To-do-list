@@ -12,8 +12,8 @@
 1.	Clone or download the file and open it with VS code
 2.	Open a new terminal and run: 'npm run start'.
    
-#### How to use
-4.	Add a new todo item via the add button
-5.	if an item is done, click the checkbox to generate a crossline through it.
-6.	Delete an item by clicking 'X'
-7.	Always get the total number of items under the title
+#### How to use:
+1.	Add a new todo item via the add button
+2.	if an item is done, click the checkbox to generate a crossline through it.
+3.	Delete an item by clicking 'X'
+4.	Always get the total number of items under the title
