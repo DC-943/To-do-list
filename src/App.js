@@ -65,7 +65,7 @@ function Form() {
   function handleSetCompleteFalse(id) {
     setAddTextArray((addTextArray) =>
       addTextArray.filter((item) =>
-        item.id === id ? { ...item, packed: (item.complete = false) } : item
+        item.id === id ? { ...item, complete: false } : item
       )
     );
     // console.log(
@@ -83,7 +83,7 @@ function Form() {
   function handleSetComplete(id) {
     setAddTextArray((addTextArray) =>
       addTextArray.filter((item) =>
-        item.id === id ? { ...item, packed: (item.complete = true) } : item
+        item.id === id ? { ...item, complete: true } : item
       )
     );
     console.log("after change complete value, the new array is:", addTextArray);
