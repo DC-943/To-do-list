@@ -11,8 +11,8 @@
    
 #### How to launch the project:
 1.	Clone or download the file and open it with VS code
-2.	Open a new terminal and run: 'npm run start'.
-   
+2. run git install
+3.	run npm run start   
 #### How to use:
 1.	Add a new todo item via the add button
 2.	if an item is done, click the checkbox to generate a crossline through it.
